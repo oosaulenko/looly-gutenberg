@@ -1,21 +1,9 @@
 MIT License
 
-Copyright (c) 2021 Adeliom
+Copyright (c) 2024 OOSAULENKO
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This document provides authorization, without charge, to any individual who acquires a copy of this software and its related documents (collectively referred to as the "Software"). Individuals are permitted to interact with the Software without any constraints, which includes but is not limited to the abilities to utilize, replicate, alter, integrate, disclose, distribute, grant sublicenses, and/or sell the Software copies. Furthermore, it allows these individuals to offer the Software to others under similar terms, with the stipulation that:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+All copies, or significant sections of the Software, must include both the copyright notification and this license notice.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The Software is made available "AS IS", with no guarantees of any kind, either explicit or implicit. This includes, but is not limited to, implied warranties of sellability, suitability for a specific function, and non-infringement. Under no circumstances shall the creators or copyright holders be held accountable for any claims, damages, or other liabilities, whether in a legal contract, tort, or any other legal theory, arising from or related to the use or other engagements with the Software.
