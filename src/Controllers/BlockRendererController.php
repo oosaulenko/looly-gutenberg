@@ -8,9 +8,11 @@ use Adeliom\EasyGutenbergBundle\Blocks\ContentRenderer;
 use Adeliom\EasyGutenbergBundle\Requests\BlockRenderRequest;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\Routing\Attribute\Route;
 
 class BlockRendererController extends AbstractController
 {
+    #[Route('/bundles/easy-gutenberg/block-renderer', name: 'easy_gutenberg.block_renderer')]
     public function show(BlockRenderRequest $request, ContentRenderer $renderer): JsonResponse
     {
         $block = new Block(
@@ -21,6 +23,7 @@ class BlockRendererController extends AbstractController
         return $this->json($renderer->renderEditor($block));
     }
 
+    #[Route('/bundles/easy-gutenberg/fetch-blocks', name: 'easy_gutenberg.fetch_blocks')]
     public function fetchBlocks(BlockTypeRegistry $registry): JsonResponse
     {
         $blocks = [];
