@@ -35,4 +35,6 @@ interface BlockTypeInterface
     public static function getStyles(): array;
 
     public function supports(string $objectClass, $instance = null): bool;
+
+    public static function render(array $data): array;
 }

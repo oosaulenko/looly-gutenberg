@@ -122,4 +122,9 @@ abstract class AbstractBlockType extends AbstractType implements BlockTypeInterf
     {
         return 'easy-gutenberg';
     }
+
+    public static function render(array $data): array
+    {
+        return $data;
+    }
 }

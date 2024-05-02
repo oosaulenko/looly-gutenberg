@@ -49,6 +49,7 @@ class ContentRenderer
         $blockType = $this->blockTypeRegistry->getBlockType($block->blockName);
         if ($blockType && $blockType::isDynamic()) {
             $output = $this->twig->render($blockType::getTemplate(), [
+                'block_name' => str_replace('easy-gutenberg/', '', $block->blockName),
                 'mode' => $block->getMode(),
                 'attributes' => $block->attributes,
                 'output' => $output,
@@ -87,6 +88,7 @@ class ContentRenderer
             }
             if ($block->isMode('preview')) {
                 $output = $this->twig->render($blockType::getTemplate(), [
+                    'block_name' => str_replace('easy-gutenberg/', '', $block->blockName),
                     'mode' => $block->getMode(),
                     'attributes' => $block->attributes,
                     'output' => $output,
