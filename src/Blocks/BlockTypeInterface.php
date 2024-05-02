@@ -36,5 +36,5 @@ interface BlockTypeInterface
 
     public function supports(string $objectClass, $instance = null): bool;
 
-    public static function render(array $data): array;
+    public function render(array $data): array;
 }

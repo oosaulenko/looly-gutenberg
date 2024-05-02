@@ -108,7 +108,7 @@ class Helper
             $stats = $this->startTracing($block);
             $assets = $blockMetas::configureAssets();
             $attributes = $block->attributes;
-            $attributes['data'] = $blockMetas::render($attributes['data']);
+            $attributes['data'] = $blockMetas->render($attributes['data']);
 
             $parseBlockEvent = new GenericEvent(null, ['attributes' => $attributes, 'block' => $block, 'assets' => $assets]);
             /**
