@@ -21,8 +21,8 @@ export const init = (
     }
 
     const editorSettings = { ...defaultSettings, ...settings };
-    const lang_fr = require("./lang/fr.json");
-    defaultI18n.setLocaleData(lang_fr);
+    const lang_en = require("./lang/en.json");
+    defaultI18n.setLocaleData(lang_en);
 
     fetch('/bundles/easy-gutenberg/fetch-blocks', {
         headers: {
