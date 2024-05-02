@@ -263,7 +263,7 @@
     "Ajouter des pistes"
   ],
   "Additional CSS class(es)": [
-    "Classe(s) CSS additionnelle(s)"
+    "Additional CSS class(es)"
   ],
   "Advanced": [
     "Advanced"
@@ -344,13 +344,13 @@
     "Une erreur inconnue est survenue durant la création. Veuillez réessayer."
   ],
   "Anonymous": [
-    "Anonyme"
+    "Anonymous"
   ],
   "Appearance": [
-    "Apparence"
+    "Appearance"
   ],
   "Apply": [
-    "Appliquer"
+    "Apply"
   ],
   "Apply duotone filter": [
     "Appliquer un filtre duotone"
@@ -663,7 +663,7 @@
     "%s : choisissez une zone existante ou créez en une nouvelle."
   ],
   "Choose specific attributes to restrict or lock all available options.": [
-    "Choisissez des attributs spécifiques pour restreindre ou verrouiller toutes les options disponibles."
+    "Choose specific attributes to restrict or lock all available options."
   ],
   "Choose variation": [
     "Choisir une variante"
@@ -949,7 +949,7 @@
     "Dimensions"
   ],
   "Disable movement": [
-    "Désactiver le mouvement"
+    "Disable movement"
   ],
   "Display": [
     "Afficher"
@@ -1896,10 +1896,10 @@
     "Déplacer le ou les blocs sélectionnés vers le haut."
   ],
   "Move to": [
-    "Déplacer vers"
+    "Move to"
   ],
   "Move up": [
-    "Monter"
+    "Move up"
   ],
   "Moved \"%s\" to clipboard.": [
     "« %s » déplacé dans le presse-papier."
@@ -2002,22 +2002,22 @@
     "Aucune publication trouvée."
   ],
   "No results found.": [
-    "Aucun résultat."
+    "No results found."
   ],
   "No results.": [
-    "Aucun résultat."
+    "No results."
   ],
   "No selected font appearance": [
-    "Aucune apparence de police sélectionnée."
+    "No selected font appearance"
   ],
   "None": [
-    "Aucun"
+    "None"
   ],
   "Normal": [
-    "Normale"
+    "Normal"
   ],
   "Not set": [
-    "Non défini"
+    "Not set"
   ],
   "Note: Most phone and tablet browsers won't display embedded PDFs.": [
     "Remarque : la plupart des navigateurs pour téléphone et tablette n’affichent pas les PDF embarqués."
@@ -2269,7 +2269,7 @@
     "Appuyer sur ENTRÉE pour ajouter ce lien"
   ],
   "Prevent removal": [
-    "Empêcher la suppression"
+    "Prevent removal"
   ],
   "Preview": [
     "Prévisualiser"
@@ -2455,13 +2455,13 @@
     "Sélectionner le bloc parent (%s)"
   ],
   "Select post": [
-    "Sélectionner un article"
+    "Select post"
   ],
   "Select poster image": [
-    "Sélectionner une image de couverture"
+    "Select poster image"
   ],
   "Select tag": [
-    "Sélectionner une étiquette"
+    "Select tag"
   ],
   "Select the avatar user to display, if it is blank it will use the post/page author.": [
     "Sélectionnez l’avatar du compte à afficher, s’il est vide, ce sera celui de l’auteur/autrice de la page/l’article."
@@ -2470,13 +2470,13 @@
     "Sélectionnez la taille de l’image source."
   ],
   "Separate multiple classes with spaces.": [
-    "Dans le cas de plusieurs classes, séparez-les avec des espaces."
+    "Separate multiple classes with spaces."
   ],
   "Separator": [
-    "Séparateur"
+    "Separator"
   ],
   "Settings": [
-    "Réglages"
+    "Settings"
   ],
   "Shortcode": [
     "Code court"
@@ -2922,10 +2922,10 @@
     "Retirer le rayon du lien"
   ],
   "Unlock": [
-    "Déverrouiller"
+    "Unlock"
   ],
   "Unlock %s": [
-    "Déverrouiller « %s »"
+    "Unlock « %s »"
   ],
   "Unordered": [
     "Non ordonnée"

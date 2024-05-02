@@ -1,7 +1,6 @@
 import EditorSettings from "./editor/interfaces/editor-settings";
 import { initializeEditor, wordpress, registerBlockType } from "./editor";
 import defaultSettings from "./default-settings";
-import { defaultI18n, __ } from '@wordpress/i18n';
 import {registerServerBlockType} from "./utils";
 
 export const init = (
@@ -21,8 +20,6 @@ export const init = (
     }
 
     const editorSettings = { ...defaultSettings, ...settings };
-    const lang_en = require("./lang/en.json");
-    defaultI18n.setLocaleData(lang_en);
 
     fetch('/bundles/easy-gutenberg/fetch-blocks', {
         headers: {
