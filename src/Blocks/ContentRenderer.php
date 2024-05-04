@@ -24,10 +24,9 @@ class ContentRenderer
         $this->formBuilder = $formBuilder;
     }
 
-    public function render(string $content): string
+    public function render(array $blocks): string
     {
         $output = '';
-        $blocks = $this->parser->parse($content);
 
         foreach ($blocks as $block) {
             $output .= $this->renderBlock($block);

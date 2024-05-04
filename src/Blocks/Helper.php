@@ -134,7 +134,7 @@ class Helper
         $content = $this->parser->serialize($preRenderBlocksEventResult->getArgument('blocks'));
         $postRenderBlocksEventResult = $this->eventDispatcher->dispatch(new GenericEvent(null, ['content' => $content]), 'easy_gutenberg.post_render_blocks');
 
-        return new Markup($this->renderer->render($postRenderBlocksEventResult->getArgument('content')), 'UTF-8');
+        return new Markup($this->renderer->render($preRenderBlocksEventResult->getArgument('blocks')), 'UTF-8');
     }
 
     private function startTracing(Block $block): array
